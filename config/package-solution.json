@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "set-page-layout-client-side-solution",
+    "id": "e9c64f2d-7034-4e23-b8bb-efbb4f7935e1",
+    "version": "1.2.1.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/set-page-layout.sppkg"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "set-page-layout-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/setPageLayout/SetPageLayoutWebPart.js",
+          "manifest": "./src/webparts/setPageLayout/SetPageLayoutWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SetPageLayoutWebPartStrings": "lib/webparts/setPageLayout/loc/{locale}.js"
+  }
+}
